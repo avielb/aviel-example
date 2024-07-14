@@ -36,5 +36,5 @@ jobs:
           context: .
           push: true
           tags: |
-            aviel-job:${{ github.ref_name }}-${{ env.COMMIT_HASH }}-${{ env.EPOCH_TIMESTAMP }}
-            aviel-service:${{ github.ref_name }}-${{ env.COMMIT_HASH }}-${{ env.EPOCH_TIMESTAMP }}
+            avielb/aviel-job:${{ github.ref_name }}-${{ env.COMMIT_HASH }}-${{ env.EPOCH_TIMESTAMP }}
+            avielb/aviel-service:${{ github.ref_name }}-${{ env.COMMIT_HASH }}-${{ env.EPOCH_TIMESTAMP }}
